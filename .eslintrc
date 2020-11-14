@@ -9,7 +9,11 @@
     "semi": "off",
 	"arrow-parens": "off",
 	"comma-dangle": "off",
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "no-trailing-spaces": "off",
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "indent": ["error", 4],
+    "operator-linebreak": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
